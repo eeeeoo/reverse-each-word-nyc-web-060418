@@ -1,7 +1,8 @@
 def reverse_each_word(string)
+  reversed = []
   new_array = string.split(" ")
   new_array.each do |element|
-    element.reverse
-    p element.reverse
+    reversed << element.reverse
   end
+  puts "''" + reversed * "" + "''"
 end
