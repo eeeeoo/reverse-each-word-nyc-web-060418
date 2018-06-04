@@ -4,5 +4,5 @@ def reverse_each_word(string)
   new_array.each do |element|
     reversed << element.reverse
   end
-  puts "''" + reversed * "" + "''"
+  return "''" + reversed * "" + "''"
 end
