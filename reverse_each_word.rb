@@ -14,4 +14,5 @@ def reverse_each_word(string)
     reversed << element.reverse
   end
   return reversed.join(" ")
+  p reversed
 end
